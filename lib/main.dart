@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:learning_management_system/pages/login_page.dart';
+import 'package:learning_management_system/pages/onboard_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: GoogleFonts.lato().fontFamily,
       ),
-      home: const LoginPage(),
+      home: const OnBoardPage(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -129,12 +129,14 @@ customDrawer({
               customText(
                 text: name,
                 fontWeight: FontWeight.bold,
+                size: 16,
               ),
               const SizedBox(
                 height: 6,
               ),
               customText(
                 text: email,
+                size: 14,
               ),
               const SizedBox(
                 height: 14,

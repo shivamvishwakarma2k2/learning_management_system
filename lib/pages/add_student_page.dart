@@ -23,6 +23,13 @@ class _AddStudentPageState extends State<AddStudentPage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
+              customText(
+                text: "Add Students",
+                fontWeight: FontWeight.bold,
+              ),
+              const SizedBox(
+                height: 8,
+              ),
               customTextFeild(text: "Name", controller: nameController),
               const SizedBox(
                 height: 8,

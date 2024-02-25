@@ -49,7 +49,9 @@ class _AddAssignmentPageState extends State<AddAssignmentPage> {
               child: Column(
                 children: [
                   customText(
-                      text: "Add Assignment", fontWeight: FontWeight.bold),
+                    text: "Add Assignment",
+                    fontWeight: FontWeight.bold,
+                  ),
                   const SizedBox(
                     height: 8,
                   ),

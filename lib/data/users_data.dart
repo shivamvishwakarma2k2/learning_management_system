@@ -9,7 +9,14 @@ List<Map<String, String>> teachers = [
   },
 ];
 
-List<Map<String, String>> students = [];
+List<Map<String, String>> students = [
+  {
+    "name": "Shivam Vishwakarma",
+    "email": "shivamvishwakarma2k2@gmail.com",
+    "rollno": "6415",
+    "password": "123456",
+  },
+];
 
 //  {
 //     "name": "Shivam Vishwakarma",

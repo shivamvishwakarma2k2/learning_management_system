@@ -4,11 +4,13 @@ import 'package:learning_management_system/pages/assignmnet_submission_page.dart
 import 'package:learning_management_system/widget/custom_widgets.dart';
 
 class AssignmentListPage extends StatelessWidget {
+ 
   const AssignmentListPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+   
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView.builder(
