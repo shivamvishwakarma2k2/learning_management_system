@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:learning_management_system/pages/login_page.dart';
 import 'package:learning_management_system/pages/onboard_page.dart';
 
 void main() {
